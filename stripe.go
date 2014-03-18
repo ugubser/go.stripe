@@ -53,6 +53,7 @@ func SetKeyEnv() (err error) {
 	if _key == "" {
 		err = errors.New("STRIPE_API_KEY not found in environment")
 	}
+	_log = true
 	return
 }
 
