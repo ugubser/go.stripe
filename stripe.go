@@ -31,6 +31,7 @@ func SetUrl(url string) {
 // API requests.
 func SetKey(key string) {
 	_key = key
+	_log = true
 }
 
 // Available APIs
